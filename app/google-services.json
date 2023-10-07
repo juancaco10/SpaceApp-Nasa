@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "380453150749",
+    "project_id": "nasaapp-ac28f",
+    "storage_bucket": "nasaapp-ac28f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380453150749:android:8a7804d4a8a4fd792e66f4",
+        "android_client_info": {
+          "package_name": "com.example.nasaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380453150749-f0oil5u3cc4cgkf3hpvs37tt4dkvtu35.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nasaapp",
+            "certificate_hash": "79a246a087d73aa8a4e51cef263e43a3f1f5fbd1"
+          }
+        },
+        {
+          "client_id": "380453150749-jo9elkte4kv47d4be5q31gs2kc2u2ggv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRAw35g7dG0mOaVD4AV_4cM1pymC3HsLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380453150749-jo9elkte4kv47d4be5q31gs2kc2u2ggv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
