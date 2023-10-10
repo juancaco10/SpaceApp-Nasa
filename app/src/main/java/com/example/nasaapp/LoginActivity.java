@@ -11,25 +11,25 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class LoginActivity extends AppCompatActivity {
 
-    private EditText editTextEmail;
-    private EditText editTextPassword;
-    private Button btnStartSession;
+    private EditText editTextText3;
+    private EditText editTextText4;
+    private Button loginButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        editTextEmail = findViewById(R.id.editTextEmail);
-        editTextPassword = findViewById(R.id.editTextPassword);
-        btnStartSession = findViewById(R.id.btnStartSession);
+        editTextText3 = findViewById(R.id.editTextText3);
+        editTextText4 = findViewById(R.id.editTextText4);
+        loginButton = findViewById(R.id.loginButton);
 
-        btnStartSession.setOnClickListener(new View.OnClickListener() {
+        loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // Obtener el correo y la contraseña ingresados por el usuario
-                String email = editTextEmail.getText().toString().trim();
-                String password = editTextPassword.getText().toString().trim();
+                String email = editTextText3.getText().toString().trim();
+                String password = editTextText4.getText().toString().trim();
 
                 // Verificar que los datos de inicio de sesión sean los correctos
                 if (email.equals("correo@hotmail.com") && password.equals("1234567")) {

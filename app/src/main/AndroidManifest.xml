@@ -24,13 +24,22 @@
             </intent-filter>
         </activity>
         <activity android:name=".Guides">
-
         </activity>
-
+        <activity android:name=".Weather">
+        </activity>
         <activity android:name=".ActivityHome">
+        </activity>
+        <activity android:name=".Fire" />
+        <activity android:name=".Games">
 
         </activity>
 
+        <activity android:name=".News">
+
+        </activity>
+        <activity android:name=".Settings">
+
+        </activity>
     </application>
 
 </manifest>
