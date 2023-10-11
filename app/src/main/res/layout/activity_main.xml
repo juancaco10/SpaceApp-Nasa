@@ -154,7 +154,7 @@
         app:layout_constraintTop_toBottomOf="@+id/loginButton3" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/googlebtn"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_marginStart="96dp"
@@ -166,7 +166,7 @@
         app:srcCompat="@drawable/google" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/facebookbtn"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_marginTop="16dp"
